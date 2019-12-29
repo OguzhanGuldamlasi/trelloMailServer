@@ -30,7 +30,7 @@ const sendEmail =async (to, name, type) => {
         secure: true, // use SSL
         auth: {
             user: 'oguzhanguldamlasi@gmail.com',
-            pass: 'owljljhoxhmupbvk'
+            pass: ''
         }
     };
     const smtpTransport = mailer.createTransport(smtpConfig)
